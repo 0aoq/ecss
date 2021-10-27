@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>0aoq/ecss</title>
+
+    <link rel="stylesheet" href="./ecss/app.e.css">
+</head>
+
+<body>
+    <app class="grid grid-place-center">
+        <!-- <ecss> element = whitespace for flex/grid -->
+        <ecss class="container-xl pad-full-1_2">
+            <h1>ECSS Test ❤️</h1>
+            <h3 class="mb-2em">(As of 2021-10-27)</h3>
+        </ecss>
+
+        <ecss class="pad-full-1_2 container-xl flex flex-undo flex-just-between bg-3 rad-_8em">
+            <ecss class="grid grid-place-center"><text class="fs-1_875 fw-700">Flex Card</text></ecss>
+            <ecss class="grid grid-place-center">
+                <p style="margin-bottom: 0;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, reprehenderit.</p>
+            </ecss>
+        </ecss>
+
+        <ecss class="pad-full-1_2 container-xl flex flex-undo flex-just-between bg-3 rad-_8em mb-1em">
+            <ecss class="grid grid-place-center"><text class="fs-1_875 fw-700">Flex Card (Button)</text></ecss>
+            <ecss class="grid grid-place-center">
+                <p style="margin-bottom: 0;">Lorem ipsum dolor sit amet.</p>
+            </ecss>
+            <ecss class="grid grid-place-center">
+                <a href="#" class="button flex-just-self-left pad-center-2_5 btn-shadow">Get Started</a>
+            </ecss>
+        </ecss>
+
+        <ecss class="flex flex-just-center mb-1em" style="gap: 1em;">
+            <ecss class="grid grid-place-center">
+                <h3>Button (Shadow)</h3>
+            </ecss>
+            <ecss class="grid grid-place-center">
+                <a href="#" class=" button flex-just-self-left pad-center-2_5 btn-shadow ">Get Started</a>
+            </ecss>
+        </ecss>
+
+        <ecss class="flex flex-just-center mb-1em" style="gap: 1em;">
+            <ecss class="grid grid-place-center">
+                <h3>Button (No Shadow)</h3>
+            </ecss>
+            <ecss class="grid grid-place-center">
+                <a href="#" class=" button flex-just-self-left pad-center-2_5">Get Started</a>
+            </ecss>
+        </ecss>
+
+        <ecss class="flex flex-column" style="gap: 1em;">
+            <h3>Inputs</h3><br>
+            <input type="text " placeholder="input ">
+            <textarea name=" " placeholder="textarea "></textarea>
+        </ecss>
+
+        <ecss class="flex flex-column" style="gap: 1em;">
+            <h3>Scroll Bar</h3><br>
+            <textarea name="" placeholder="textarea" disabled id="$ecss1"></textarea>
+        </ecss>
+    </app>
+
+    <script>
+        document.getElementById("$ecss1").value = "scroll bar example\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    </script>
+</body>
+
+</html>

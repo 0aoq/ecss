@@ -1,0 +1,40 @@
+@import url(./core/components.e.css);
+@import url(./core/config.e.css);
+@import url(./core/whitespace.e.css);
+
+/* css base */
+
+* {
+    margin: 0;
+    padding: 0;
+    scrollbar-width: thin;
+    scrollbar-color: var(--gray-6) var(--gray-5);
+}
+
+*::selection {
+    color: #fff;
+    background: var(--gray-2) !important;
+}
+
+html {
+    font-family: var(--app-font);
+    line-height: 1.5;
+    color: white;
+}
+
+body {
+    background: var(--gray-4);
+    display: grid;
+    place-items: center;
+}
+
+body app {
+    padding-top: 5px;
+    width: 65%;
+}
+
+@media screen and (max-width: 800px) {
+    body app {
+        width: 95%;
+    }
+}

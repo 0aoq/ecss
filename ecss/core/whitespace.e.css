@@ -1,0 +1,261 @@
+/*
+    ===============================
+*/
+
+.pad-center-1_2 {
+    padding-left: 1.2rem !important;
+    padding-right: 1.2rem !important;
+}
+
+.pad-center-2_5 {
+    padding-left: 2.5rem !important;
+    padding-right: 2.5rem !important;
+}
+
+.pad-full-1_2 {
+    padding: 1.2rem !important;
+}
+
+.pad-full-2_5 {
+    padding: 2.5rem !important;
+}
+
+.pad-right-16px {
+    padding-right: 16px;
+}
+
+.ml-25px {
+    margin-left: 25px !important;
+}
+
+.ml-50px {
+    margin-left: 50px !important;
+}
+
+.ml-25px {
+    margin-right: 25px !important;
+}
+
+.mr-50px {
+    margin-right: 50px !important;
+}
+
+.mt-25px {
+    margin-top: 25px !important;
+}
+
+.mt-50px {
+    margin-top: 50px !important;
+}
+
+.mt-125px {
+    margin-top: 112px !important;
+}
+
+.mt-112px {
+    margin-top: 112px !important;
+}
+
+.mt-224px {
+    margin-top: 224px !important;
+}
+
+.mb-25px {
+    margin-bottom: 25px !important;
+}
+
+.mb-50px {
+    margin-bottom: 50px !important;
+}
+
+.mb-125px {
+    margin-bottom: 224px !important;
+}
+
+.mb-112px {
+    margin-bottom: 112px !important;
+}
+
+.mb-224px {
+    margin-bottom: 224px !important;
+}
+
+.wd-full {
+    width: 80% !important;
+}
+
+.wd-content {
+    padding: .2em 7rem;
+}
+
+.container-xl {
+    max-width: 1080px;
+    width: 50em !important;
+}
+
+.container-l {
+    width: 40em !important;
+    max-width: 824px;
+}
+
+.container-m {
+    width: 35em !important;
+    max-width: 512px;
+}
+
+@media screen and (max-width: 500px) {
+    .wd-full,
+    .container-l,
+    .container-m,
+    .container-xl {
+        width: 100% !important;
+        max-width: 89% !important;
+    }
+}
+
+.wd-1-3rd {
+    width: 33.33333%;
+}
+
+.wd-1-half {
+    width: 50%;
+}
+
+.text {
+    word-wrap: break-word;
+}
+
+@media screen and (max-width: 800px) {
+    .wd-full,
+    .container-l,
+    .container-m,
+    .container-xl {
+        width: 100% !important;
+        max-width: 85%;
+    }
+}
+
+.heading {
+    width: 100%;
+    font-weight: 550;
+    border-bottom: 2px solid var(--app-dark-background-lighter);
+}
+
+@media screen and (min-width: 601px) {
+    .title {
+        font-size: 60px !important;
+    }
+    .heading {
+        font-size: 30px !important;
+    }
+    .text {
+        font-size: 25px !important;
+    }
+    .text.small {
+        font-size: 20px !important;
+    }
+    .text.smallest {
+        font-size: 15px !important;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .title {
+        font-size: 30px !important;
+    }
+    .heading {
+        font-size: 20px !important;
+    }
+    .text {
+        font-size: 15px !important;
+    }
+    .text.small {
+        font-size: 15px !important;
+    }
+    .text.smallest {
+        font-size: 10px !important;
+    }
+}
+
+.mar-lr-auto {
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+
+/* Display */
+
+.grid {
+    display: grid !important;
+}
+
+.grid.grid-place-center {
+    place-items: center;
+}
+
+.flex {
+    display: flex !important;
+}
+
+.flex.flex-just-center {
+    justify-content: center !important;
+}
+
+.flex.flex-just-self-left {
+    justify-self: left !important;
+}
+
+.flex.flex-wrap {
+    flex-wrap: wrap !important;
+}
+
+.flex.flex-row {
+    flex-direction: row !important;
+}
+
+.flex.flex-just-between {
+    justify-content: space-between !important;
+}
+
+.flex.flex-column {
+    flex-direction: column !important;
+}
+
+@media screen and (max-width: 800px) {
+    .flex.flex-undo {
+        display: block !important;
+    }
+}
+
+.sticky {
+    display: sticky;
+}
+
+.inline {
+    display: inline;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.box-shadow {
+    -webkit-box-shadow: 0 2px 3px -1px rgba(0, 0, 0, 0.1), 0 3px 5px 0 rgba(0, 0, 0, 0.05), 0 0.5px 9px 0 rgba(0, 0, 0, 0.13);
+    box-shadow: 0 2px 3px -1px rgba(0, 0, 0, 0.1), 0 3px 5px 0 rgba(0, 0, 0, 0.05), 0 1px 9px 0 rgba(0, 0, 0, 0.13);
+}
+
+.backdrop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    backdrop-filter: blur(5px);
+    background: rgba(0, 0, 0, 0.4);
+}

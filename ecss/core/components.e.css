@@ -1,0 +1,221 @@
+@import url(./config.e.css);
+
+/* ecss components */
+
+
+/* ecss button */
+
+.button {
+    /* top, right, bottom, left */
+    padding: var(--e-btn-pad-y) var(--e-btn-pad-x) var(--e-btn-pad-y) var(--e-btn-pad-x);
+    background: var(--e-btn-bg-normal);
+    color: var(--e-btn-bg-normal-txt);
+    border-radius: var(--e-btn-rad);
+    transition: all 0.2s;
+    text-decoration: none;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+.button:hover {
+    background: var(--e-btn-bg-normal-hov);
+}
+
+.button.btn-shadow:hover {
+    -webkit-box-shadow: 0 2px 3px -1px rgba(255, 255, 255, 0.1), 0 3px 5px 0 rgba(255, 255, 255, 0.05), 0 0.5px 9px 0 rgba(255, 255, 255, 0.13);
+    box-shadow: 0 2px 3px -1px rgba(255, 255, 255, 0.1), 0 3px 5px 0 rgba(255, 255, 255, 0.05), 0 1px 9px 0 rgba(255, 255, 255, 0.13);
+}
+
+
+/* ecss inputs */
+
+input,
+textarea {
+    border: var(--e-btn-bg-normal) solid 1px;
+    transition: all 0.2s;
+    color: #fff;
+    padding: var(--e-btn-pad-y) var(--e-btn-pad-x) var(--e-btn-pad-y) var(--e-btn-pad-x);
+    background: transparent;
+    outline: none;
+    border-radius: var(--e-btn-rad);
+    width: 18em;
+    font-size: 14px !important;
+    text-overflow: ellipsis;
+    caret-color: var(--e-btn-bg-normal-txt);
+    resize: none;
+}
+
+textarea {
+    width: 18em;
+    height: 10em;
+    font-family: var(--app-font) !important;
+}
+
+input:focus,
+textarea:focus {
+    color: var(--e-btn-bg-normal-txt);
+    background: var(--e-btn-bg-normal);
+}
+
+input:hover,
+textarea:hover {
+    -webkit-box-shadow: 0 2px 3px -1px rgba(255, 255, 255, 0.1), 0 3px 5px 0 rgba(255, 255, 255, 0.05), 0 0.5px 9px 0 rgba(255, 255, 255, 0.13);
+    box-shadow: 0 2px 3px -1px rgba(255, 255, 255, 0.1), 0 3px 5px 0 rgba(255, 255, 255, 0.05), 0 1px 9px 0 rgba(255, 255, 255, 0.13);
+}
+
+
+/* ecss text */
+
+.fs-1_875 {
+    font-size: 1.875rem;
+}
+
+.fw-700 {
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 2.875rem;
+    line-height: 2.25rem;
+    font-weight: 700;
+    letter-spacing: -.025em;
+}
+
+h2 {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    font-weight: 700;
+    letter-spacing: -.025em;
+}
+
+h3 {
+    color: var(--gray-10);
+    letter-spacing: -.025em;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 500;
+}
+
+p {
+    margin-bottom: 1.25em;
+    color: var(--gray-11);
+}
+
+.mb-1em {
+    margin-bottom: 1em;
+}
+
+.mb-2em {
+    margin-bottom: 2em;
+}
+
+.mb-2_5em {
+    margin-bottom: 2.5em;
+}
+
+
+/* shadows */
+
+.shadow-light {
+    -webkit-box-shadow: 0 2px 3px -1px rgba(255, 255, 255, 0.1), 0 3px 5px 0 rgba(255, 255, 255, 0.05), 0 0.5px 9px 0 rgba(255, 255, 255, 0.13);
+    box-shadow: 0 2px 3px -1px rgba(255, 255, 255, 0.1), 0 3px 5px 0 rgba(255, 255, 255, 0.05), 0 1px 9px 0 rgba(255, 255, 255, 0.13);
+}
+
+.shadow-dark {
+    -webkit-box-shadow: 0 2px 3px -1px rgba(0, 0, 0, 0.1), 0 3px 5px 0 rgba(0, 0, 0, 0.05), 0 0.5px 9px 0 rgba(0, 0, 0, 0.13);
+    box-shadow: 0 2px 3px -1px rgba(0, 0, 0, 0.1), 0 3px 5px 0 rgba(0, 0, 0, 0.05), 0 1px 9px 0 rgba(0, 0, 0, 0.13);
+}
+
+
+/* background */
+
+.bg-1 {
+    background: var(--gray-1);
+}
+
+.bg-2 {
+    background: var(--gray-2);
+}
+
+.bg-3 {
+    background: var(--gray-3);
+}
+
+.bg-4 {
+    background: var(--gray-4);
+}
+
+.bg-5 {
+    background: var(--gray-5);
+}
+
+.bg-6 {
+    background: var(--gray-6);
+}
+
+.bg-7 {
+    background: var(--gray-7);
+}
+
+.bg-8 {
+    background: var(--gray-8);
+}
+
+.bg-9 {
+    background: var(--gray-9);
+}
+
+.bg-10 {
+    background: var(--gray-10);
+}
+
+.bg-11 {
+    background: var(--gray-11);
+}
+
+
+/* border */
+
+.rad-default {
+    border-radius: var(--e-btn-rad);
+}
+
+.rad-_1em {
+    border-radius: .2em;
+}
+
+.rad-_2em {
+    border-radius: .2em;
+}
+
+.rad-_3em {
+    border-radius: .3em;
+}
+
+.rad-_4em {
+    border-radius: .4em;
+}
+
+.rad-_5em {
+    border-radius: .5em;
+}
+
+.rad-_6em {
+    border-radius: .6em;
+}
+
+.rad-_7em {
+    border-radius: .7em;
+}
+
+.rad-_8em {
+    border-radius: .8em;
+}
+
+.rad-_9em {
+    border-radius: .9em;
+}
+
+.rad-1em {
+    border-radius: 1em;
+}
